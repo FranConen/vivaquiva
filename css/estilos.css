@@ -1,0 +1,234 @@
+.navbar-logo {
+  width: 30px;
+  height: 30px; }
+
+header .redes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none; }
+
+header .redes i {
+  color: red;
+  font-size: 1.5rem;
+  margin-left: 10px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+header .redes i:hover {
+  color: white; }
+
+body {
+  margin: 0;
+  font-family: 'Inconsolata', monospace;
+  background-color: #010101;
+  color: white; }
+
+h1 {
+  font-family: 'Bungee Shade', cursive;
+  text-align: center;
+  margin: 0;
+  font-size: 3rem;
+  padding: 30px;
+  color: red; }
+
+h2 {
+  font-family: 'Bungee Shade', cursive;
+  margin-top: 1rem;
+  font-size: 2.5rem; }
+
+h3 {
+  font-family: 'Bungee Shade', cursive;
+  margin: 0;
+  font-size: 2rem; }
+
+h4 {
+  padding: 10px; }
+
+a {
+  text-decoration: none; }
+
+.banner-img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover; }
+
+.titulos {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background: red;
+  margin-bottom: 20px; }
+
+.novedades-img {
+  margin: auto;
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  padding-bottom: 20px; }
+
+.novedades-titulo {
+  background: red;
+  text-align: center; }
+
+.novedades-texto {
+  text-align: center; }
+
+.footer {
+  background: red; }
+
+.iconos-footer {
+  text-align: center; }
+
+.container-fluid [class*="icon-"] {
+  color: white;
+  text-decoration: none; }
+
+.container-fluid [class*="icon-"]:before {
+  position: relative;
+  top: 3px;
+  right: 5px; }
+
+.titulos-footer {
+  text-align: center;
+  padding-top: 15px; }
+
+.copyright {
+  text-align: center;
+  background: black; }
+
+.media-iframe {
+  margin: auto;
+  width: 100%;
+  height: 300px;
+  padding-bottom: 20px; }
+
+.media-titulo {
+  background: red;
+  text-align: center; }
+
+.media-texto {
+  text-align: center; }
+
+@keyframes slideRight {
+  from {
+    transform: translateX(-100%);
+    opacity: 0; }
+  to {
+    transform: translateX(0%);
+    opacity: 1;
+    visibility: visible; } }
+
+.slideRight-0 {
+  animation-name: slideRight;
+  animation-duration: 700ms;
+  animation-delay: 0;
+  animation-timing-function: ease-in-out;
+  visibility: hidden;
+  animation-fill-mode: forwards; }
+
+.slideRight-200ms {
+  animation-name: slideRight;
+  animation-duration: 700ms;
+  animation-delay: 200ms;
+  animation-timing-function: ease-in-out;
+  visibility: hidden;
+  animation-fill-mode: forwards; }
+
+.slideRight-400ms {
+  animation-name: slideRight;
+  animation-duration: 700ms;
+  animation-delay: 400ms;
+  animation-timing-function: ease-in-out;
+  visibility: hidden;
+  animation-fill-mode: forwards; }
+
+.slideRight-600ms {
+  animation-name: slideRight;
+  animation-duration: 700ms;
+  animation-delay: 600ms;
+  animation-timing-function: ease-in-out;
+  visibility: hidden;
+  animation-fill-mode: forwards; }
+
+.slideRight-800ms {
+  animation-name: slideRight;
+  animation-duration: 700ms;
+  animation-delay: 800ms;
+  animation-timing-function: ease-in-out;
+  visibility: hidden;
+  animation-fill-mode: forwards; }
+
+.slideRight-1000ms {
+  animation-name: slideRight;
+  animation-duration: 700ms;
+  animation-delay: 1000ms;
+  animation-timing-function: ease-in-out;
+  visibility: hidden;
+  animation-fill-mode: forwards; }
+
+.slideRight-1200ms {
+  animation-name: slideRight;
+  animation-duration: 700ms;
+  animation-delay: 1200ms;
+  animation-timing-function: ease-in-out;
+  visibility: hidden;
+  animation-fill-mode: forwards; }
+
+.slideRight-1400ms {
+  animation-name: slideRight;
+  animation-duration: 700ms;
+  animation-delay: 1400ms;
+  animation-timing-function: ease-in-out;
+  visibility: hidden;
+  animation-fill-mode: forwards; }
+
+.slideRight-1600ms {
+  animation-name: slideRight;
+  animation-duration: 700ms;
+  animation-delay: 1600ms;
+  animation-timing-function: ease-in-out;
+  visibility: hidden;
+  animation-fill-mode: forwards; }
+
+.slideRight-1800ms {
+  animation-name: slideRight;
+  animation-duration: 700ms;
+  animation-delay: 1800ms;
+  animation-timing-function: ease-in-out;
+  visibility: hidden;
+  animation-fill-mode: forwards; }
+
+.slideRight-2000ms {
+  animation-name: slideRight;
+  animation-duration: 700ms;
+  animation-delay: 2000ms;
+  animation-timing-function: ease-in-out;
+  visibility: hidden;
+  animation-fill-mode: forwards; }
+
+.slideRight-2200ms {
+  animation-name: slideRight;
+  animation-duration: 700ms;
+  animation-delay: 2200ms;
+  animation-timing-function: ease-in-out;
+  visibility: hidden;
+  animation-fill-mode: forwards; }
+
+div[class*="slideRight"] {
+  padding: 0.3rem; }
+  div[class*="slideRight"]:hover img {
+    filter: brightness(80%); }
+
+.staff-text {
+  text-align: center;
+  padding: 15px; }
+
+.staff-img {
+  padding-bottom: 20px;
+  height: 500px;
+  object-fit: cover; }
+
+.container-form {
+  padding: 30px; }

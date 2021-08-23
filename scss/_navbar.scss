@@ -1,0 +1,22 @@
+.navbar-logo {
+    width: 30px;
+    height: 30px;
+}
+
+header .redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none; }
+  
+  header .redes i {
+    color: red;
+    font-size: 1.5rem;
+    margin-left: 10px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+  
+  header .redes i:hover {
+    color: white; }

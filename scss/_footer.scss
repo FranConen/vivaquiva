@@ -1,0 +1,28 @@
+.footer {
+    background: red;
+}
+
+.iconos-footer {
+    text-align: center;
+}
+
+.container-fluid [class*="icon-"] {
+    color: white;
+    text-decoration: none; 
+}
+  
+.container-fluid [class*="icon-"]:before {
+    position: relative;
+    top: 3px;
+    right: 5px; 
+}
+
+.titulos-footer {
+    text-align: center;
+    padding-top: 15px;    
+}
+
+.copyright {
+    text-align: center;
+    background: black;
+}
